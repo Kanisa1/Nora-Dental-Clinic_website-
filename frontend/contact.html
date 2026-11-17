@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fbf8f4">
+    <meta name="description" content="Contact Nora Dental Clinic in Zindiro, Kigali, or find the clinic opposite the SP station.">
+    <title>Contact | Nora Dental Clinic</title>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#home" aria-label="Nora Dental Clinic home">
+          <img class="brand-logo" src="../assets/logo.png" alt="">
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link" href="index.html#home">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="team.html">Our team</a>
+          <a class="nav-link" href="#contact-methods" aria-current="page">Contact</a>
+          <a class="button button-small nav-cta" href="#request-visit">
+            Request a visit
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.2 10h11.6M10 4.2l5.8 5.8-5.8 5.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="contact-page">
+      <section class="contact-page-hero" aria-labelledby="contact-page-title">
+        <div class="contact-page-hero-inner">
+          <div class="section-kicker"><span>01</span><span class="kicker-rule"></span><span>Contact Nora Dental Clinic</span></div>
+          <h1 id="contact-page-title">Let’s talk about<br><em>your next visit.</em></h1>
+          <p>Want to request a visit? Preview the details we’ll need below. While online requests are being prepared, please call or email the clinic.</p>
+          <div class="contact-page-actions">
+            <a class="button" href="tel:+250798287919">
+              Call the clinic
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6.2 3.5 8.5 7l-1.6 1.7a12 12 0 0 0 4.4 4.4l1.7-1.6 3.5 2.3-.6 2.5c-.2.7-.9 1.2-1.6 1.1A15 15 0 0 1 2.6 5.7c-.1-.7.4-1.4 1.1-1.6l2.5-.6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="button button-outline" href="#request-visit">Request a visit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="request-visit-section" id="request-visit" aria-labelledby="request-visit-title">
+        <div class="request-visit-inner">
+          <div class="request-visit-intro">
+            <div class="section-kicker"><span>02</span><span class="kicker-rule"></span><span>Request a visit</span></div>
+            <h2 id="request-visit-title">A simple way to<br><em>get started.</em></h2>
+            <p>Tell us how to reach you and when you would prefer to visit. Our team will review your request and contact you to discuss availability.</p>
+            <p class="request-visit-disclaimer">A request is not a confirmed appointment.</p>
+          </div>
+
+          <div class="request-visit-card">
+            <div class="request-visit-status" role="status">
+              <strong>Online requests are not enabled yet.</strong>
+              <span>This form is a preview only. Your entries are not sent or stored. Please call or email the clinic to request a visit.</span>
+            </div>
+            <form class="request-visit-form" aria-label="Appointment request form preview">
+              <fieldset disabled>
+                <legend class="visually-hidden">Appointment request details</legend>
+                <div class="request-form-grid">
+                  <div class="request-form-field">
+                    <label for="request-name">Your name</label>
+                    <input id="request-name" name="name" type="text" autocomplete="name" required>
+                  </div>
+                  <div class="request-form-field">
+                    <label for="request-contact">Phone number or email</label>
+                    <input id="request-contact" name="contact" type="text" autocomplete="off" required>
+                  </div>
+                  <div class="request-form-field">
+                    <label for="request-service">Preferred service</label>
+                    <select id="request-service" name="service" required>
+                      <option value="">Choose a preferred service</option>
+                      <option value="general-dental-consultations">General Dental Consultations</option>
+                      <option value="dental-examinations">Dental Examinations</option>
+                      <option value="preventive-dental-care">Preventive Dental Care</option>
+                      <option value="professional-teeth-cleaning">Professional Teeth Cleaning</option>
+                      <option value="restorative-dental-care">Restorative Dental Care</option>
+                    </select>
+                  </div>
+                  <div class="request-form-field">
+                    <label for="request-date">Preferred date</label>
+                    <input id="request-date" name="preferred-date" type="date" required>
+                  </div>
+                  <div class="request-form-field">
+                    <label for="request-time">Preferred time</label>
+                    <input id="request-time" name="preferred-time" type="time" required>
+                  </div>
+                  <div class="request-form-field request-form-field-wide">
+                    <label for="request-note">Additional note <span>(optional)</span></label>
+                    <textarea id="request-note" name="note" rows="3" placeholder="Scheduling details only"></textarea>
+                    <small>Please do not include symptoms, diagnoses or medical history.</small>
+                  </div>
+                </div>
+                <div class="request-privacy-placeholder">
+                  <span class="request-privacy-mark" aria-hidden="true"></span>
+                  <p>A clinic-approved privacy notice and acknowledgement step will be provided before online requests are enabled.</p>
+                </div>
+                <button class="button request-submit" type="submit" disabled>Online requests coming soon</button>
+              </fieldset>
+            </form>
+            <p class="request-visit-fallback">
+              Need help now?
+              <a href="tel:+250798287919">Call the clinic</a>
+              or
+              <a href="mailto:norhadentalclinic@gmail.com">send us an email</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-page-section" id="contact-methods" aria-label="Clinic contact details and location">
+        <div class="contact-page-grid">
+          <div class="contact-page-details" aria-labelledby="contact-details-title">
+            <div class="section-kicker section-kicker-light"><span>03</span><span class="kicker-rule"></span><span>Get in touch</span></div>
+            <h2 id="contact-details-title">We’re happy to help.</h2>
+            <div class="contact-options">
+              <a class="contact-option" href="tel:+250798287919">
+                <span class="contact-option-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20"><path d="M6.2 3.5 8.5 7l-1.6 1.7a12 12 0 0 0 4.4 4.4l1.7-1.6 3.5 2.3-.6 2.5c-.2.7-.9 1.2-1.6 1.1A15 15 0 0 1 2.6 5.7c-.1-.7.4-1.4 1.1-1.6l2.5-.6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <span><small>Call our clinic</small><strong>+250 798 287 919</strong></span>
+                <span class="option-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="contact-option" href="mailto:norhadentalclinic@gmail.com">
+                <span class="contact-option-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20"><rect x="2.5" y="4" width="15" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m3.5 5 6.5 5 6.5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <span><small>Send us an email</small><strong>norhadentalclinic@gmail.com</strong></span>
+                <span class="option-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="contact-location">
+                <span class="contact-option-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20"><path d="M16 8.2c0 4.2-6 9.3-6 9.3S4 12.4 4 8.2a6 6 0 1 1 12 0Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="8" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                </span>
+                <span><small>Find us in Zindiro</small><strong>Opposite the SP station<br>Kigali, Gasabo, Rwanda</strong></span>
+              </div>
+            </div>
+            <p class="contact-page-note">An appointment request is not a confirmed appointment.</p>
+          </div>
+
+          <section class="contact-page-map" aria-labelledby="contact-map-title">
+            <div class="contact-map-heading">
+              <div>
+                <div class="section-kicker"><span>04</span><span class="kicker-rule"></span><span>Visit the clinic</span></div>
+                <h2 id="contact-map-title">Find us in Zindiro.</h2>
+                <p>Opposite the SP station, Kigali, Rwanda.</p>
+              </div>
+              <a class="contact-map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Nora%20Dental%20Clinic%2C%20Zindiro%2C%20opposite%20the%20SP%20station%2C%20Kigali%2C%20Rwanda" target="_blank" rel="noopener noreferrer">
+                Open map
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <iframe
+              class="contact-map-frame"
+              title="Map showing Nora Dental Clinic in Zindiro, opposite the SP station in Kigali"
+              src="https://maps.google.com/maps?q=Nora+Dental+Clinic%2C+Zindiro%2C+opposite+the+SP+station%2C+Kigali%2C+Rwanda&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="index.html#home" aria-label="Nora Dental Clinic home">
+            <img class="brand-logo" src="../assets/logo.png" alt="">
+          </a>
+          <p>Professional dental care with a personal touch, right here in Kigali.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Explore</h2>
+          <a href="index.html#home">Home</a>
+          <a href="about.html">About us</a>
+          <a href="services.html">Services</a>
+          <a href="index.html#care">Your care</a>
+          <a href="team.html">Our team</a>
+        </div>
+        <div class="footer-column">
+          <h2>Get in touch</h2>
+          <a href="tel:+250798287919">+250 798 287 919</a>
+          <a href="mailto:norhadentalclinic@gmail.com">norhadentalclinic@gmail.com</a>
+          <span>Zindiro, Kigali, Rwanda</span>
+        </div>
+        <a class="back-to-top" href="#main" aria-label="Back to top">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 15.8V4.2M4.2 10 10 4.2l5.8 5.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Back to top</span>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year">2026</span> Nora Dental Clinic. All rights reserved.</span>
+        <a href="#contact-methods">Privacy &amp; questions</a>
+        <span>Made with care in Kigali <span class="footer-heart" aria-hidden="true">♥</span></span>
+      </div>
+    </footer>
+  </body>
+</html>
